@@ -1,0 +1,92 @@
+@import url("../mainStyles.css");
+
+body {
+  background-image: url("../assets/imgs/login-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.loginForm {
+  background-color: #fff;
+  width: 35%;
+  margin: 4rem auto 4rem 8rem;
+  border-radius: 5px;
+  padding: 2rem;
+  text-align: left;
+}
+
+h1.logo {
+  margin: 0 0 2rem;
+  font-family: "Acme", sans-serif;
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
+.login-btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  width: 100%;
+  margin-top: 20px;
+  border: 2px solid;
+}
+
+.login-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.resetPassword {
+  display: block;
+  margin-top: 0.3rem;
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.resetPassword:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+.login-google {
+  width: 100%;
+  background-color: #fff;
+  border: 2px solid #000;
+  color: #000;
+}
+.login-google i {
+  margin-inline-end: 10px;
+}
+
+.register {
+  margin-top: 0.6rem;
+  color: #454f5b;
+}
+.register a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.register a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+
+@media only screen and (max-width: 1200px) {
+  .loginForm {
+    background-color: #fff;
+    width: 60%;
+    margin: 4rem auto;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  h1.logo {
+    font-size: 40px;
+  }
+}

@@ -1,0 +1,353 @@
+@import url("../mainStyles.css");
+
+/* header background custom shape styles */
+
+.custom-shape-divider-bottom-1650424856 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1650424856 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 186px;
+}
+
+.custom-shape-divider-bottom-1650424856 .shape-fill {
+  fill: #fff;
+}
+
+/* header styles */
+
+header {
+  position: relative;
+  height: 625px;
+  background-color: var(--primary-color);
+  color: #fff;
+  padding-top: 2rem;
+}
+
+header .nav{
+  display: flex;
+  padding: 0 2rem;
+  justify-content: flex-end;
+}
+
+header .nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  background-color: #fff;
+  border: 2px solid;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-inline-end: 5px;
+}
+header .nav a:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: var(--primary-color);
+
+}
+
+header h1.logo {
+  margin: 0 0 1rem;
+  font-family: "Acme", sans-serif;
+  font-size: 25px;
+}
+header h2 {
+  font-size: 35px;
+}
+header p {
+  font-size: 22px;
+}
+
+/* header > get started */
+
+header .getStartedBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.getStartedBox input {
+  width: 80%;
+  margin-bottom: 0.5rem;
+}
+.getStartedBox .btn {
+  color: #fff;
+  font-weight: bold;
+  border: 2px solid #fff;
+}
+
+.getStartedBox .btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: ease-in-out 0.2s;
+}
+
+header .hint {
+  font-size: 16px;
+  width: 90%;
+  margin: 1rem auto 0;
+}
+
+/* info columns section */
+
+.info-cols {
+  margin: 2rem 0 4rem;
+}
+
+.info-cols .row {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.info-cols i {
+  color: var(--primary-color);
+  font-size: 35px;
+  margin-bottom: 0.6rem;
+}
+
+/* clients section styles */
+
+.clients .client-container {
+  padding: 1rem 0 0;
+}
+
+.clients hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client {
+  margin-bottom: 1.8rem;
+}
+
+.client i {
+  font-size: 35px;
+  margin-bottom: 0.2rem;
+}
+
+.client p {
+  margin: 0;
+}
+
+/* reviews section style */
+
+.reviews {
+  margin: 2rem 0 2rem;
+}
+.reviews p {
+  width: 90%;
+  font-size: 20px;
+  margin: 0 auto 1rem;
+}
+
+.reviews cite {
+  color: #42474c;
+  font-size: 14px;
+}
+
+/* get started main body button  */
+
+.btn-container {
+  margin-bottom: 4rem;
+}
+
+.btn-container .btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.btn-container .btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: 2px solid;
+  border-color: var(--primary-color);
+  font-weight: bold;
+  padding: 10px 20px;
+  transition: ease-in-out 0.2s;
+}
+
+/* footer styles */
+
+footer {
+  text-align: center;
+  margin: 0.5rem 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+footer a:first-of-type {
+  margin-inline-end: 20px;
+}
+
+footer a:hover {
+  color: var(--primary-color);
+}
+
+/* overlay styles */
+
+.overlayWindow {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow-x: hidden;
+  background-color: #212326;
+}
+
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  color: #818181;
+  text-decoration: none;
+}
+
+.closebtn:hover {
+  color: #fff;
+}
+
+.overlayWindow .innerForm {
+  width: 35%;
+  margin: 6rem auto;
+  color: #fff;
+  text-align: left;
+}
+
+.overlayWindow .innerForm h2 {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.innerForm input {
+  padding: 12px;
+  margin-bottom: 1rem;
+}
+
+.shopName {
+  margin-bottom: 0 !important;
+  border-right: 0;
+}
+
+.input-group-text {
+  background-color: #fff;
+  color: #42474c;
+  border-left: 0;
+}
+
+.createBtn {
+  text-align: right;
+}
+.createBtn .btn {
+  background-color: var(--primary-color);
+  font-weight: bold;
+}
+.createBtn a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+}
+.createBtn .btn:hover {
+  border: 2px solid;
+  border-color: var(--primary-color);
+  background-color: #fff;
+  transition: ease-in-out 0.2s;
+}
+.createBtn .btn:hover a {
+  color: var(--primary-color);
+}
+
+/* media queries for medium screen */
+
+@media only screen and (min-width: 600px) {
+  header {
+    height: 560px;
+  }
+
+  header .getStartedBox {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .getStartedBox input {
+    width: 70%;
+    margin-bottom: 0;
+  }
+  .getStartedBox .btn {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  header h1.logo {
+    font-size: 35px;
+  }
+
+  header h2 {
+    font-size: 45px;
+  }
+  header p {
+    font-size: 26px;
+  }
+
+  header .getStartedBox {
+    width: 60%;
+  }
+
+  header .hint {
+    font-size: 18px;
+  }
+
+  .info-cols .row {
+    text-align: left;
+  }
+}
+
+/* media queries for large screen */
+@media only screen and (min-width: 1024px) {
+  header h1.logo {
+    font-size: 35px;
+  }
+
+  header h2 {
+    font-size: 60px;
+  }
+  header p {
+    font-size: 26px;
+  }
+
+  header .hint {
+    width: 75%;
+    font-size: 18px;
+  }
+
+  header .getStartedBox {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  header .getStartedBox {
+    width: 40%;
+  }
+}

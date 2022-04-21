@@ -1,0 +1,52 @@
+@import url("../mainStyles.css");
+
+body {
+  background-color: #f6f6f7;
+}
+
+.survey-step3 {
+  background-color: #fff;
+  width: 60%;
+  margin: 5rem auto;
+  padding: 3rem;
+  border-radius: 10px;
+}
+.survey-step3 p {
+  margin-bottom: 0;
+  font-size: 26px;
+}
+.survey-step3 .textFaded {
+  font-size: 20px;
+  color: #6d7381;
+}
+
+p.stepNumber {
+  font-size: 12px;
+}
+
+.row {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.controlBtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.controlBtns .back {
+  color: #6d7381;
+  text-decoration: none;
+}
+
+.controlBtns .next-btn {
+  background-color: var(--primary-color);
+}
+.next-btn a {
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  padding: 6px 25px;
+}

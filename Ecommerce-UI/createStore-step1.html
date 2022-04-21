@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/step1.css" />
+    <title>create store - step1</title>
+  </head>
+  <body>
+    <div class="survey-step1">
+      <p class="stepNumber">step 1 of 3</p>
+      <p>Tell us a little about yourself</p>
+      <p class="textFaded">
+        We'll help you get started based on your responses
+      </p>
+      <div class="form">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Are you already selling</label
+          >
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Please choose one</option>
+            <option value="1">i'm just playing around</option>
+            <option value="2">i'm not selling products yet</option>
+            <option value="3">i'm selling, just offline</option>
+            <option value="4">i sell with a different system</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >What is your current revenue?</label
+          >
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Please choose one</option>
+            <option value="1">€0 EUR (I'm just getting started)</option>
+            <option value="2">Up to €5,000 EUR</option>
+            <option value="3">€5,000 EUR to €50,000 EUR</option>
+            <option value="4">€50,000 EUR to €250,000 EUR</option>
+            <option value="5">€250,000 EUR to €1,000,000 EUR</option>
+            <option value="6">€1,000,000 EUR+</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Which industry will you be operating in?</label
+          >
+          <select class="form-select" aria-label="Default select example">
+            <option selected disabled>Please choose one</option>
+            <option value="store_industry.beauty">Beauty</option>
+            <option value="store_industry.clothing">Clothing</option>
+            <option value="store_industry.electronics">Electronics</option>
+            <option value="store_industry.furniture">Furniture</option>
+            <option value="store_industry.handcrafts">Handcrafts</option>
+            <option value="store_industry.jewelry">Jewelry</option>
+            <option value="store_industry.painting">Painting</option>
+            <option value="store_industry.photography">Photography</option>
+            <option value="store_industry.restaurants">Restaurants</option>
+            <option value="store_industry.groceries">Groceries</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="controlBtns">
+        <button type="button" class="btn skip-btn">Skip</button>
+        <button type="button" class="btn next-btn"><a href="/createStore-step2.html">Next</a></button>
+      </div>
+    </div>
+  </body>
+</html>

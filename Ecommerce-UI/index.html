@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <title>Ecommerce</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav">
+        <a href="/login.html">Log in</a>
+        <a href="">Register</a>
+      </div>
+      <h1 class="logo"><i class="fa-solid fa-cart-shopping"></i> Ecommerce</h1>
+      <h2>Sell online with Ecommerce</h2>
+      <p>Trusted by millions of businesses worldwide</p>
+
+      <div class="getStartedBox">
+        <input
+          type="email"
+          class="form-control"
+          placeholder="name@example.com"
+        />
+        <button type="button" class="btn btn1" onclick="openOverlay()">
+          Start Free Trial
+        </button>
+      </div>
+      <p class="hint">
+        Try Shopify free for 14 days, no credit card required. By entering your
+        email, you agree to receive marketing emails from Shopify.
+      </p>
+
+      <div class="custom-shape-divider-bottom-1650424856">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="info-cols">
+        <div class="row">
+          <div class="col-md-4">
+            <i class="fa-solid fa-laptop"></i>
+            <h4>Customizable templates</h4>
+            <p>Free website designs to launch your store quickly and easily.</p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa-solid fa-credit-card"></i>
+            <h4>All In One</h4>
+            <p>
+              Ecommerce takes care of everything from marketing and payments to
+              secure transactions and shipping.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <i class="fa-solid fa-people-group"></i>
+            <h4>A safe and efficient platform</h4>
+            <p>
+              Millions of users trust Ecommerce to manage their online stores.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="clients">
+        <hr />
+        <div class="client-container row">
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+          <div class="client col-sm-6 col-md-2">
+            <i class="fa-solid fa-shop"></i>
+            <p>Client Brand</p>
+          </div>
+        </div>
+        <hr />
+      </section>
+
+      <section class="reviews">
+        <blockquote>
+          <p>
+            Ecommerce is better than any other platform we've played with, and
+            we've played with them all.”
+          </p>
+          <cite>JONATHON BAYME, CEO OF THEORY11</cite>
+        </blockquote>
+      </section>
+
+      <div class="btn-container">
+        <button type="button" class="btn btn2" onclick="openOverlay()">
+          Start Free Trial
+        </button>
+      </div>
+
+      <footer>
+        <a href="">Terms of Service</a>
+        <a href="">Privacy Policy</a>
+      </footer>
+    </div>
+
+    <div class="overlayWindow">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeOverlay()"
+        >&times;</a
+      >
+      <div class="innerForm">
+        <h2>Start your free 14-day trial of Ecommerce</h2>
+        <input
+          type="email"
+          class="form-control"
+          placeholder="name@example.com"
+        />
+        <input type="password" placeholder="Password" class="form-control" />
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control shopName"
+            placeholder="Store Name"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">.ecommerce.com</span>
+        </div>
+        <p>
+          This is the URL that customers will use to visit your store. You can
+          also buy a custom domain like eslam19096.com and connect it to this
+          store.
+        </p>
+
+        <div class="createBtn">
+          <button type="button" class="btn">
+            <a href="./createStore-step1.html">Create your Store</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/overlayForm.js"></script>
+  </body>
+</html>
