@@ -1,0 +1,166 @@
+@import url("../mainStyles.css");
+
+body {
+  background-image: url("../assets/imgs/login-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* left side content section */
+
+.content {
+  background-color: #fff;
+  width: 50%;
+  height: 100vh;
+  margin-right: auto;
+  padding: 3rem 3rem 0;
+}
+
+/* logo styles */
+
+h1.logo {
+  margin: 0 0 2rem;
+  text-align: left;
+  font-family: "Acme", sans-serif;
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
+/* storeList head styles (title &button) */
+
+.storeList-head {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.storeStatus {
+  margin-top: 2rem;
+}
+
+/* storeTabs style (active & inactive links) */
+
+.storeTabs {
+  margin-bottom: 1.5rem;
+}
+
+.storeTabs p {
+  padding: 10px 15px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.storeTabs p:first-of-type {
+  margin-inline-end: 1.5rem;
+}
+.storeTabs p.active {
+  border-bottom: 2px solid var(--primary-color);
+}
+.storeTabs span {
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: #dbdddf;
+}
+
+/* store list styles */
+
+.storeList {
+  text-align: left;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#activeList,
+#inactiveList {
+  padding: 10px;
+}
+
+#inactiveList {
+  display: none;
+}
+
+/* store container style */
+
+.store {
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.store:last-of-type {
+  margin-bottom: 0;
+}
+.store i {
+  font-size: 20px;
+  color: #5c5f62;
+  background-color: #f6f6f7;
+  padding: 10px 8px;
+  border: 2px solid #f6f6f7;
+  border-radius: 50%;
+  margin-inline-end: 1rem;
+}
+.store p {
+  margin: 0;
+}
+.store--name {
+  font-size: 20px;
+}
+.store--link {
+  font-size: 14px;
+  color: #6d7175;
+}
+
+.store:hover i{
+    color: var(--primary-color);
+    background-color: #fff;
+    border: 2px solid var(--primary-color);
+}
+.store:hover .store--name{
+    color: var(--primary-color);
+}
+
+/* media queries section */
+
+@media only screen and (max-width: 1543.5px) {
+  .content {
+    width: 55%;
+  }
+  .storeList{
+      max-height: 350px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .content{
+        margin: auto;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .content{
+        width: 65%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+@media only screen and (max-width: 678px) {
+    .content{
+        width: 80%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .content{
+        width: 90%;
+    }
+    .storeList-head{
+        flex-wrap: wrap;
+    }
+}
+
