@@ -1,0 +1,81 @@
+@import url("../mainStyles.css");
+
+body {
+  background-image: url("../assets/imgs/login-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* left side content section */
+
+.content {
+  background-color: #fff;
+  width: 50%;
+  height: 100vh;
+  margin-right: auto;
+  padding: 3rem 3rem 0;
+  text-align: left;
+}
+
+/* logo styles */
+
+h1.logo {
+  margin: 0 0 4rem;
+  font-family: "Acme", sans-serif;
+  font-size: 45px;
+  color: var(--primary-color);
+}
+
+/* create store header */
+
+.createStore-head {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.createStore-head a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.createStore-head i {
+  font-size: 20px;
+}
+
+.createStore-head h2 {
+  margin: 0 1rem;
+}
+
+.hint {
+  padding: 0 1rem;
+  color: #6d7175;
+  font-size: 14px;
+}
+
+/* input area style */
+
+.inputContainer {
+  margin-top: 3rem;
+  padding: 0 1rem;
+}
+
+.btn {
+  margin-inline-start: 1rem;
+  margin-top: 2rem;
+}
+
+/* media queries styles */
+
+@media only screen and (max-width: 937.5px) {
+  .content {
+      margin: auto;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .content {
+    width: 75%;
+  }
+}
