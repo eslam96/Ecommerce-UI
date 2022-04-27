@@ -89,7 +89,6 @@ header .getStartedBox {
   background-color: #fff;
   color: var(--primary-color);
   border-color: var(--primary-color);
-  transition: ease-in-out 0.2s;
 }
 
 header .hint {
@@ -163,18 +162,13 @@ header .hint {
 }
 
 .btn-container .btn {
-  background-color: var(--primary-color);
   color: #fff;
-  font-weight: bold;
   padding: 10px 20px;
 }
 
 .btn-container .btn:hover {
-  background-color: #fff;
   color: var(--primary-color);
   border: 2px solid;
-  border-color: var(--primary-color);
-  font-weight: bold;
   padding: 10px 20px;
   transition: ease-in-out 0.2s;
 }

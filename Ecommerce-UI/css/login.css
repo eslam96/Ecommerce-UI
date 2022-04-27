@@ -23,17 +23,8 @@ h1.logo {
 }
 
 .login-btn {
-  background-color: var(--primary-color);
-  color: #fff;
-  width: 100%;
   margin-top: 20px;
-  border: 2px solid;
-}
-
-.login-btn:hover {
-  background-color: #fff;
-  color: var(--primary-color);
-  border-color: var(--primary-color);
+  width: 100%;
 }
 
 .resetPassword {
@@ -72,9 +63,9 @@ hr {
 }
 
 .register a:hover {
-    color: var(--primary-color);
-    text-decoration: underline;
-  }
+  color: var(--primary-color);
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1200px) {
   .loginForm {
