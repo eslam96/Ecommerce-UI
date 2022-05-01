@@ -1,0 +1,49 @@
+@import url("../mainStyles.css");
+
+body {
+  background-image: url("../assets/imgs/login-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.registerForm {
+    background-color: #fff;
+    width: 35%;
+    margin: 4rem 4rem 4em auto;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: right;
+  }
+  
+  h1.logo {
+    margin: 0 0 2rem;
+    font-family: "Acme", sans-serif;
+    font-size: 45px;
+    color: var(--primary-color);
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+  .registerHint {
+    color: #454f5b;
+  }
+
+  p a{
+      text-decoration: none;
+      color: var(--primary-color);
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .registerForm {
+      width: 60%;
+      margin: 4rem auto;
+      text-align: left;
+    }
+  }
+  
+  @media only screen and (max-width: 548px) {
+    h1.logo {
+      font-size: 40px;
+    }
+  }
