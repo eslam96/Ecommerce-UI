@@ -9,10 +9,10 @@ body {
 .loginForm {
   background-color: #fff;
   width: 35%;
-  margin: 4rem auto 4rem 8rem;
+  margin: 4rem 4rem auto 8rem;
   border-radius: 5px;
   padding: 2rem;
-  text-align: left;
+  text-align: right;
 }
 
 h1.logo {
@@ -21,6 +21,15 @@ h1.logo {
   font-size: 45px;
   color: var(--primary-color);
 }
+
+h2 {
+  margin-bottom: 0;
+}
+.loginHint {
+  color: #454f5b;
+  margin-bottom: 2rem;
+}
+
 
 .login-btn {
   margin-top: 20px;
@@ -69,7 +78,6 @@ hr {
 
 @media only screen and (max-width: 1200px) {
   .loginForm {
-    background-color: #fff;
     width: 60%;
     margin: 4rem auto;
     text-align: left;
