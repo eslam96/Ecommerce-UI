@@ -13,6 +13,11 @@
 body {
   font-family: "Ubuntu", sans-serif;
   text-align: center;
+  direction: rtl;
+}
+
+input{
+  padding: 15px !important;
 }
 
 .btn {
