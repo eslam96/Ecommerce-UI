@@ -12,9 +12,9 @@ body {
   background-color: #fff;
   width: 50%;
   height: 100vh;
-  margin-right: auto;
+  margin-left: auto;
   padding: 3rem 3rem 0;
-  text-align: left;
+  text-align: right;
 }
 
 /* logo styles */
