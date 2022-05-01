@@ -1,0 +1,138 @@
+@import url("../mainStyles.css");
+
+body {
+  background-color: #f6f6f7;
+}
+
+/* top navigation bar styles */
+
+nav.topNav {
+  background-color: #fff;
+  direction: ltr;
+  justify-content: space-between;
+  padding: 10px 0 !important;
+  overflow: hidden;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0;
+}
+
+.dropdown .btn {
+  background-color: #fff;
+  border: none;
+  color: initial;
+  padding: 15px;
+}
+.dropdown i {
+  font-size: 20px;
+  margin-inline-end: 5px;
+  color: var(--primary-color);
+}
+
+.dropdown .btn:hover {
+  background-color: #f6f6f7;
+}
+
+.account-dropdown .btn span {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 12px 10px;
+  border-radius: 50%;
+  margin-inline-end: 8px;
+}
+
+nav form {
+  width: 35%;
+}
+
+nav form input {
+  background-color: #f1f2f3 !important;
+  padding: 8px !important;
+}
+
+.row {
+  height: 100% !important;
+  --bs-gutter-x: 0;
+}
+
+/* page side nav styles */
+
+.sideNav {
+  padding: 10px;
+  border-left: 2px solid #e1e3e5;
+  height: 90vh;
+}
+
+.sideNav a {
+  text-align: right;
+  color: #5c5f62;
+  border-radius: 5px;
+  margin-bottom: 2px;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link.active {
+  color: #5c5f62;
+  background-color: #edeeef;
+}
+.sideNav a.active {
+  color: var(--primary-color);
+  background-color: #edeeef;
+}
+.sideNav a i {
+  margin-inline-end: 8px;
+}
+
+.leftSide {
+  padding: 3rem 0;
+}
+
+/* inner content tab nav styles */
+
+.innerTabs {
+  background-color: #fff;
+  width: 65%;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(23, 24, 24, 0.05), 0 1px 2px rgba(0, 0, 0, 0.15);
+  text-align: right;
+}
+
+.innerTabs h4 {
+  padding: 1.5rem;
+  margin: 0;
+}
+
+.innerTabs hr {
+  margin: 1rem 0 0;
+}
+
+.innerTabs .rightSide a {
+  padding: 1.5rem;
+  background-color: #fafbfb;
+  color: #5c5f62;
+  border: 1px solid #e1e3e5;
+}
+.innerTabs .rightSide a:hover {
+  color: #202223;
+}
+
+.innerTabs .rightSide a.active {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: none;
+  border-right: 3px solid var(--primary-color);
+}
+
+.innerTabs .rightSide a:last-of-type {
+  border-bottom-right-radius: 8px;
+}
+
+.innerTabs .rightSide i {
+  margin-inline-end: 8px;
+}
+
+.innerTabs .leftSide {
+  padding: 1rem;
+}

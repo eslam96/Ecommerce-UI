@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/admin.css" />
+    <title>manage store</title>
+  </head>
+  <body>
+    <nav class="navbar topNav">
+      <div class="container-fluid">
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
+            Store Name
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Store 1</a></li>
+            <li><a class="dropdown-item" href="#">Store 2</a></li>
+            <li><a class="dropdown-item" href="#">Store 3</a></li>
+          </ul>
+        </div>
+        <form>
+          <input
+            class="form-control me-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+        </form>
+        <div class="dropdown account-dropdown">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span class="initials">em</span>
+            Eslam Mamdouh
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Manage account</a></li>
+            <li><a class="dropdown-item" href="#">Stores</a></li>
+            <li><a class="dropdown-item" href="#">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="mainContent">
+      <div class="row">
+        <div class="col col-md-2">
+          <ul onclick="myFunction(event)" class="nav sideNav flex-column">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                ><i class="fa-solid fa-house"></i>Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-inbox"></i>Orders
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-tags"></i>Products</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-user"></i>Customers</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-chart-simple"></i>Analytics</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-bullseye"></i>Marketing</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-percent"></i>Discounts</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><i class="fa-solid fa-cubes"></i>Apps</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col leftSide col-md-10">
+          <div class="innerTabs">
+            <h4>Get ready to sell online. Try these tips to get started</h4>
+            <hr />
+            <div class="row">
+              <div class="col-md-4 rightSide">
+                <nav class="nav tabList flex-column" onclick="myFunction2(event)">
+                  <a class="nav-link innerTab active" aria-current="page" href="#"
+                    ><i class="fa-solid fa-paintbrush"></i>Customize theme</a
+                  >
+                  <a class="nav-link innerTab" href="#"
+                    ><i class="fa-solid fa-tag"></i>Add product</a
+                  >
+                  <a class="nav-link innerTab" href="#"
+                    ><i class="fa-solid fa-globe"></i> Add domain</a
+                  >
+                  <a class="nav-link innerTab" href="#"
+                    ><i class="fa-solid fa-cubes"></i>install apps</a
+                  >
+                  <a class="nav-link innerTab" href="#"
+                    ><i class="fa-solid fa-tag"></i>Place a test order
+                  </a>
+                </nav>
+              </div>
+              <div class="col-md-8 leftSide">content area</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/admin.js"></script>
+  </body>
+</html>
