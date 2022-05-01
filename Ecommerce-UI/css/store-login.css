@@ -12,15 +12,16 @@ body {
   background-color: #fff;
   width: 50%;
   height: 100vh;
-  margin-right: auto;
+  margin-left: auto;
   padding: 3rem 3rem 0;
+  text-align: right;
 }
 
 /* logo styles */
 
 h1.logo {
   margin: 0 0 2rem;
-  text-align: left;
+
   font-family: "Acme", sans-serif;
   font-size: 45px;
   color: var(--primary-color);
@@ -65,7 +66,6 @@ h1.logo {
 /* store list styles */
 
 .storeList {
-  text-align: left;
   max-height: 400px;
   overflow-y: scroll;
 }
@@ -81,13 +81,23 @@ h1.logo {
 
 /* store container style */
 
+.storeLink {
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: initial;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 25%);
+  border-radius: 5px;
+}
+
+.storeLink:hover {
+  box-shadow: 0 0 3px rgb(0 0 0 / 10%), 0 4px 20px rgb(0 0 0 / 15%);
+}
+
 .store {
   align-items: center;
   cursor: pointer;
   padding: 1rem;
-  box-shadow: 0 2px 1px rgb(0 0 0 / 5%), 0 0 1px rgb(0 0 0 / 25%);
-  border-radius: 5px;
-  margin-bottom: 1rem;
 }
 .store:last-of-type {
   margin-bottom: 0;
@@ -112,55 +122,54 @@ h1.logo {
   color: #6d7175;
 }
 
-.store:hover i{
-    color: var(--primary-color);
-    background-color: #fff;
-    border: 2px solid var(--primary-color);
+.store:hover i {
+  color: var(--primary-color);
+  background-color: #fff;
+  border: 2px solid var(--primary-color);
 }
-.store:hover .store--name{
-    color: var(--primary-color);
+.store:hover .store--name {
+  color: var(--primary-color);
 }
 
 /* media queries section */
 
-@media only screen and (max-width: 1543.5px) {
+@media only screen and (max-width: 1366px) {
   .content {
     width: 55%;
   }
-  .storeList{
-      max-height: 350px;
+  .storeList {
+    max-height: 350px;
   }
 }
 
 @media only screen and (max-width: 1024px) {
-    .content{
-        margin: auto;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
+  .content {
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
 }
 
 @media only screen and (max-width: 950px) {
-    .content{
-        width: 65%;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
+  .content {
+    width: 65%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
 @media only screen and (max-width: 678px) {
-    .content{
-        width: 80%;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
+  .content {
+    width: 80%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
 }
 
 @media only screen and (max-width: 420px) {
-    .content{
-        width: 90%;
-    }
-    .storeList-head{
-        flex-wrap: wrap;
-    }
+  .content {
+    width: 90%;
+  }
+  .storeList-head {
+    flex-wrap: wrap;
+  }
 }
-
